@@ -40,11 +40,23 @@
           <AssociatedConnUserName />
           <FullPath>02_Setup.sql</FullPath>
         </FileNode>
+        <FileNode Name="03_DBSettings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03_DBSettings.sql</FullPath>
+        </FileNode>
         <FileNode Name="03_Serversettings.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03_Serversettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DBobjekte.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DBobjekte.sql</FullPath>
         </FileNode>
         <FileNode Name="05_SystemDBs.sql">
           <AssociatedConnectionMoniker />
@@ -70,11 +82,41 @@
           <AssociatedConnUserName />
           <FullPath>08_Warnungen.sql</FullPath>
         </FileNode>
+        <FileNode Name="12_Backup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12_Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Restore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12_Restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Snapshot.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>14_Snapshot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_backupStrategie.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>15_backupStrategie.sql</FullPath>
+        </FileNode>
         <FileNode Name="ReadMe.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ReadMe.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Checkliste.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Checkliste.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_instnwnd.sql">
           <AssociatedConnectionMoniker />
