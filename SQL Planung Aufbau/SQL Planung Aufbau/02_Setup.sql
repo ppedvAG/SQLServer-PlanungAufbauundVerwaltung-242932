@@ -1,8 +1,16 @@
 /*
+Dienstkonten
+NT Service = Lokale sich selbstverwaltende Dienstkonten
+--kein Kennwort notwendig
+--lokales KOnto: Wie bewerkstellige ich den Netzwerkzugriff für Backups zB
+
+Alterniv:
+Domänenkonto.. benötigt keine besonderen Rechte
+diese werden lokal durch das Setup eingerichtet.
 
 
-Volumewartungstask = reine Windows Sicherheitseinstellung
-
+Volumewartungstask
+= reine Windows Sicherheitseinstellung
 
 jede Vergrößerung verbraucht eigtl die doppelte Schreibarbeit
 da Windows zuerst die Dateien vergrößert und mit 0 beschreibt
@@ -17,12 +25,17 @@ ohne vorher ausnullen-- schneller,
 -->IO reduzieren! Aber einem guten Admin ist das wurst! ;-) Siehe DB Settings
 
 
+
+
 Frage nach Verzeichnissen  :
 Trenne Log von Daten physikalisch (HDDs) !!
-Wirklich ideal 
 
-MAXDOP = Anzahl der log Prozessoren (max 8)
+
+MAXDOP 
+= Anzahl der log Prozessoren (max 8)
 -->eigenes Kapitel
+im Grunde: weiviele Kerne bekommt eine Abfrage maximal
+
 
 TempDB
 #tabellen, Zeilenversionierung
@@ -49,8 +62,11 @@ Setup schlägt für SQL einen max Speicher vor, um im worst Case nicht den gesamte
 --Begrenze den SQL Server immer im Bereich MAX RAM... (OS)
 
 
---MAX Speicher immer einstellen
---MIN Speicher nur bei Konkurrrenz (weiterer Instanz) sinnvoll
+--MAX Speicher 
+immer einstellen (Gesamt -OS - sonstige)
+
+--MIN Speicher 
+nur bei Konkurrrenz (weiterer Instanz) sinnvoll
 -- der mind RAM Wert wird erst belegt, wenn SQL Daten entsprechend abgelegt hat.
 
 --AUFGABEN
@@ -69,8 +85,7 @@ Setup schlägt für SQL einen max Speicher vor, um im worst Case nicht den gesamte
 
 
 hv-sql1 -- Standardinstanz (1433)
-schulung\Administrator
-ppedv2023!
+
 
 ca 6 GB
 4 Kerne
@@ -91,8 +106,7 @@ Auth
 
 --HV-SQL2
 
-schulung\administrator
-ppedv2023!
+
 
 
 
