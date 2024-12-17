@@ -18,10 +18,31 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="BIGBEN\HR:BIGBEN\Administrator">
+          <Created>2024-12-17T13:37:44.6775986+01:00</Created>
+          <Type>SQL</Type>
+          <Server>BIGBEN\HR</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="_ReadMe.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ReadMe.sql</FullPath>
+        </FileNode>
         <FileNode Name="01_Installation.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
@@ -83,20 +104,20 @@
           <FullPath>08_Warnungen.sql</FullPath>
         </FileNode>
         <FileNode Name="12_Backup.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN\HR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN\HR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>12_Backup.sql</FullPath>
         </FileNode>
-        <FileNode Name="12_Restore.sql">
+        <FileNode Name="13_Restore.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>12_Restore.sql</FullPath>
+          <FullPath>13_Restore.sql</FullPath>
         </FileNode>
         <FileNode Name="14_Snapshot.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>14_Snapshot.sql</FullPath>
         </FileNode>
@@ -106,11 +127,29 @@
           <AssociatedConnUserName />
           <FullPath>15_backupStrategie.sql</FullPath>
         </FileNode>
-        <FileNode Name="ReadMe.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+        <FileNode Name="16__Security.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>ReadMe.sql</FullPath>
+          <FullPath>16__Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_VerwaisteUser.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>16_VerwaisteUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18_Containted Databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>18_Containted Databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19_Audit.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>19_Audit.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_Checkliste.sql">
           <AssociatedConnectionMoniker />

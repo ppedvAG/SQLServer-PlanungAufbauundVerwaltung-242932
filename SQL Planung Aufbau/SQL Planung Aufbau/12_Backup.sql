@@ -191,3 +191,32 @@ RESTORE LOG [Northwind] FROM  DISK = N'C:\_SQLBACKUP\Northwind.bak' WITH  FILE =
 RESTORE LOG [Northwind] FROM  DISK = N'C:\_SQLBACKUP\Northwind_LogBackup_2023-10-30_11-42-29.bak' WITH  NOUNLOAD,  STATS = 5,  STOPAT = N'2023-10-30T10:59:52'
 ALTER DATABASE [Northwind] SET MULTI_USER
 
+
+
+--DB
+
+--Größe der DB: 500000MB
+--Arbeitszeiten: Mo bis FR  8 bis 17 Uhr
+--Datenbankausfallzeit: 10min ---Hochverfügbarkeit
+--Datenverlust in min:10min
+
+--T alle 10min Mo bis Fr ab 8:10  bis 17:10
+
+--V einmal am Tag (mo bis Fr) ...19 Uhr
+
+--D alle 3 Ts Mo bis Fr  ab 8:35 alle 30min--  bis 17:05
+
+--V TTTTTTTTTTTTTTTTTTTTTTTTDTTTD
+
+--Dauer 
+select 50000/200-- unter 10 Sekunden
+
+--Größe: 250MB  
+select 1*25000 -- 12 GB
+select 365* 12
+
+
+--Restore : 10 bis 15 Sek
+
+
+
