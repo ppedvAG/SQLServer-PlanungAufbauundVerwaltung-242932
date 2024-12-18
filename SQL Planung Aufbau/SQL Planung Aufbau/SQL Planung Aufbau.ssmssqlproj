@@ -124,6 +124,12 @@
           <AssociatedConnUserName />
           <FullPath>12_Backup.sql</FullPath>
         </FileNode>
+        <FileNode Name="12b_Besitzverkettung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12b_Besitzverkettung.sql</FullPath>
+        </FileNode>
         <FileNode Name="13_Restore.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -172,6 +178,12 @@
           <AssociatedConnUserName />
           <FullPath>19_Richtlinien.sql</FullPath>
         </FileNode>
+        <FileNode Name="20_Monitoring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>20_Monitoring.sql</FullPath>
+        </FileNode>
         <FileNode Name="sp_help_Revlogin.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -190,9 +202,15 @@
           <AssociatedConnUserName />
           <FullPath>Z_instnwnd.sql</FullPath>
         </FileNode>
-        <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Z_SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
         </FileNode>
@@ -200,6 +218,18 @@
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
       <Items>
+        <FileNode Name="FirstResponderKit.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FirstResponderKit.zip</FullPath>
+        </FileNode>
+        <FileNode Name="PerfmonVorlage.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PerfmonVorlage.xml</FullPath>
+        </FileNode>
         <FileNode Name="SQLPOL (1).zip">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
